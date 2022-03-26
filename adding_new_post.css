@@ -1,0 +1,538 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1366px;
+    height: 768px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+
+
+/*header*/
+.header{
+    position: relative;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 151px;
+}
+
+
+
+/*section*/
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*left*/
+.section_menu{
+    width: 307px;
+    min-height: 100vh;
+    height: 100%;
+    background: #84B6A3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.section_menu a{
+    font: normal normal medium 16px/19px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+#test{
+    width: 296px;
+    border-radius: 0 20px 20px 0;
+    background: #FFFFFF;
+}
+#test > li > a{
+    color:#84B6A3;
+}
+#test > li > a:visited{
+    color:#84B6A3;
+}
+li{
+    padding: 10px 0px;
+    margin-left: 153px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+}
+hr{
+    width: 143px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.37;
+    margin-left: 153px;
+}
+.line_menu_top{
+    margin: 105px 0px 20px 153px;
+}
+.avatar1{
+    display: flex; /*блок для аватара делаем флекс контейнером, в котором будут храниться аватар и надпись(имя фамилия)*/
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 153px;
+    width: 143px;
+    text-align: center;
+    padding: 5px 0;
+}
+.avatar1 .avatar_img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-image: url(./img/girl_small.png);
+}
+#left{
+    margin: 53px 0px 20px 153px;
+}
+#text{
+    text-align: left;
+    font: normal normal medium 12px/15px 'Montserrat';
+    letter-spacing: 0px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#test #text{
+    color: #84B6A3;
+}
+/*center*/
+.article {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 651px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.card_profile{
+    margin-top: 32px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.body_nav{
+    display: block;
+    font: normal normal bold 16px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    height: 34px;
+    text-align: center;
+    background-color: #84B6A3;
+}
+
+.body_profile{
+    opacity: 0.36;
+}
+.container_data_profile{
+    margin-top: 27px;
+    padding: 0px 13px 61px;
+    flex-direction: column;
+}
+.avatar_edit{
+    border-radius: 50%;
+    background-image: url(./img/3b0045c9cc47b640ddcb43d6d06d1379.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    min-width: 43px;
+    height: 43px;
+    margin-right: 44px;
+}
+.btn_foto{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_foto .fa-camera{
+    font-size: 10px;
+    color: #84B6A3;
+}
+.name_edit{
+    text-align: left;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #84B6A3;
+}
+.row_profile_f_n{
+    align-items: center;
+}
+.name_edit .fa-pencil{
+    font-size: 10px;
+    color: #BABABA;
+    margin-left: 11px;
+}
+.name_data{
+    width: 72px;
+    text-align: right;
+    font: normal normal medium 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #393939;
+    margin-right: 17px;
+}
+.input_data_profile{
+
+    width: 317px;
+    text-align: left;
+    font: normal normal medium 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #BABABA;
+    border: 0;
+    border-bottom: 1px solid #84B6A3;
+}
+:focus,:active{outline: none;}
+.data_row{
+    margin-top: 15px;
+}
+.info_deactivated_post{
+    text-align: center;
+    font: normal normal medium 12px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 34px;
+    background-color: #84B6A3;
+    width: 100%;
+    height: 34px;
+}
+.info_deactivated_post a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.text{
+    margin-right: 40px;
+    text-align: left;
+    font: normal normal medium 12px/18px "Montserrat";
+    letter-spacing: 0px;
+    color: #393939;
+}
+.color{
+    color: #84B6A3;
+}
+.star{
+    margin-right: 13px;
+    display: flex;
+    align-items:flex-end;
+}
+.subtitle_center{
+    width: 100%;
+    max-width: 621px;
+    text-align: left;
+    margin: 30px auto 0 auto;
+    color: #669885;
+    font-size:16px;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+.profile{
+    padding: 0px 13px 13px;
+    display: block;
+    box-sizing: border-box;
+}
+.avatar_dog img{
+    max-width: 250px;
+    width: 250px;
+    height: 250px;
+
+}
+
+
+
+
+.bottom_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.center_container{
+    max-width: 621px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.crud{
+    margin: 23px auto 34px;
+}
+.publish{
+    box-sizing: border-box;
+    margin-left: 11px;
+    box-sizing: border-box;
+    width: 148px;
+    height: 34px;
+    background-color: #84B6A3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 13px;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.publish i{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+a.cancel_btn{
+    box-sizing: border-box;
+    display: flex;
+    width: 105px;
+    height: 34px;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8DBFAC;
+    background-color: #ffffff;
+    border: 1px solid #8DBFAC;
+}
+.buttons{
+    display: flex;
+}
+.btns_container{
+    margin-top: 32px;
+    justify-content: flex-end;
+}
+.check_box .checkbox{
+ margin-right: 15px;
+}
+.check_box{
+    display: flex;
+    align-items: center;
+    color: #393939;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.center_container .description{
+    color: #BABABA;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: right;
+}
+.desc_container{
+    justify-content: flex-end;
+}
+.left_name{
+    margin-right: 15px;
+    text-align: right;
+font: normal normal medium 12px/18px Montserrat;
+letter-spacing: 0px;
+color: #393939;
+width: 77px;
+}
+.right_container textarea{
+    box-sizing: border-box;
+    border: 1px solid #8DBFAC;
+    width: 527px;
+    padding: 6px;
+    text-align: left;
+    font: normal normal medium 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #BABABA;
+    resize: none;
+}
+.left_name .description{
+    text-align: right;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: Montserrat;
+    letter-spacing: 0px;
+    color: #84B6A3;
+}
+/*stile for added img*/
+.img_container{
+    display: flex;
+    width: 205px;
+    height: 111px;
+}
+.big_img{
+    width: 152px;
+    height: 100%;
+    background-image: url(./img/ruka.jpg);
+    background-size: cover;
+}
+.small_img{
+    width: 53px;
+    height: 36px;
+    background-image: url(./img/ruka.jpg);
+    background-size: cover;
+}
+.small_img_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #84B6A3;
+    height: 39px;
+    width: 53px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.img_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.img_btn_container{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-right: 37px;
+}
+.row_img_load{
+    margin-top: 33px;
+}
+.row_img_load .right_container {
+    display: flex;
+    justify-content: space-between;
+    flex:1 1 auto;
+}
+.load_description{
+    font-size: 12px;
+    text-align: center;
+    font: normal normal medium 12px/12px Montserrat;
+    color: #393939;
+    margin-bottom: 7px;
+}
+.line_loaded_img .fa-xmark{
+    cursor: pointer;
+}
+.icon_load{
+    font-size: 30px;
+    color: #84B6A3;
+    text-align: center;
+}
+
+.img_btn_container input{
+    display: none;
+
+}
+.btn_browse{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #8DBFAC;
+    border-radius: 15px;
+    width: 77px;
+    height: 30px;
+    font-size: 12px;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #84B6A3;
+}
+.img_btn_load_and_loaded{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.img_loaded_container{
+    border: 1px solid #8DBFAC;
+    box-sizing: border-box;
+    width: 142px;
+    height: 100%;
+    padding: 2px 8px;
+    display: flex;
+    flex-direction: column;
+}
+.line_loaded_img{
+    display: flex;justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    line-height: 18px;
+    font: normal normal medium 10px/18px Montserrat;
+    color: #BABABA;
+}
+.user_info{
+    display: flex;
+    align-items: center;
+}
+.user_info img{
+    margin-right: 22px;
+    width: 43px;
+}
+.name_user{
+    text-align: left;
+font: normal normal 600 16px/19px Montserrat;
+letter-spacing: 0px;
+color: #84B6A3;
+}
+.row_user_info{
+    margin-top: 36px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/*right*/
+.section_info {
+    width: 374px;
+    min-height: 100vh;
+    height: 100%;
+    background: #84B6A3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+/************************/
+.card_profile{
+    margin-top: 24px;
+    padding: 17px 21px 15px 11px;
+    display: flex;
+    box-sizing: border-box;
+}

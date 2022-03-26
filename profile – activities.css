@@ -1,0 +1,493 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1366px;
+    height: 768px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+
+
+/*header*/
+.header{
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 151px;
+}
+
+
+
+/*section*/
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*left*/
+.section_menu{
+    width: 307px;
+    min-height: 100vh;
+    height: 100%;
+    background: #84B6A3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+#test{
+    width: 296px;
+    border-radius: 0 20px 20px 0;
+    background: #FFFFFF;
+}
+#test > li > a{
+    color:#84B6A3;
+}
+#test > li > a:visited{
+    color:#84B6A3;
+}
+li{
+    padding: 10px 0px;
+    margin-left: 153px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+}
+hr{
+    width: 143px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.37;
+    margin-left: 153px;
+}
+.line_menu_top{
+    margin: 105px 0px 20px 153px;
+}
+.avatar1{
+    display: flex; /*блок для аватара делаем флекс контейнером, в котором будут храниться аватар и надпись(имя фамилия)*/
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 153px;
+    width: 143px;
+    text-align: center;
+    padding: 5px 0;
+}
+.avatar1 .avatar_img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-image: url(./img/girl_small.png);
+}
+#left{
+    margin: 53px 0px 20px 153px;
+}
+#text{
+    text-align: left;
+    font: normal normal medium 12px/15px 'Montserrat';
+    letter-spacing: 0px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#test #text{
+    color: #84B6A3;
+}
+
+/*center*/
+.article {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 651px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.card_profile{
+    margin-top: 32px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.body_nav{
+    font: normal normal bold 16px/34px Montserrat;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 50%;
+    height: 34px;
+    text-align: center;
+    background-color: #84B6A3;
+}
+.body_nav:hover{
+    opacity: 1;
+    background-color: #84B6A3;
+}
+
+.body_profile{
+    opacity: 0.36;
+}
+.container_data_profile{
+    margin-top: 27px;
+    padding: 0px 13px 61px;
+    flex-direction: column;
+}
+.avatar_edit{
+    border-radius: 50%;
+    background-image: url(./img/3b0045c9cc47b640ddcb43d6d06d1379.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    min-width: 43px;
+    height: 43px;
+    margin-right: 44px;
+}
+.btn_foto{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_foto .fa-camera{
+    font-size: 10px;
+    color: #84B6A3;
+}
+.name_edit{
+    text-align: left;
+    font: normal normal 600 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #84B6A3;
+}
+.row_profile_f_n{
+    align-items: center;
+}
+.name_edit .fa-pencil{
+    font-size: 10px;
+    color: #BABABA;
+    margin-left: 11px;
+}
+.name_data{
+    width: 72px;
+    text-align: right;
+    font: normal normal medium 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #393939;
+    margin-right: 17px;
+}
+.input_data_profile{
+
+    width: 317px;
+    text-align: left;
+    font: normal normal medium 12px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #BABABA;
+    border: 0;
+    border-bottom: 1px solid #84B6A3;
+}
+:focus,:active{outline: none;}
+.data_row{
+    margin-top: 15px;
+}
+.info_deactivated_post{
+    text-align: center;
+    font: normal normal medium 12px/34px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    line-height: 34px;
+    background-color: #84B6A3;
+    width: 100%;
+    height: 34px;
+}
+.info_deactivated_post a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.text{
+    margin-right: 40px;
+    text-align: left;
+    font: normal normal medium 12px/18px "Montserrat";
+    letter-spacing: 0px;
+    color: #393939;
+}
+.color{
+    color: #84B6A3;
+}
+.star{
+    margin-right: 13px;
+    display: flex;
+    align-items:flex-end;
+}
+.subtitle_center{
+    width: 100%;
+    max-width: 621px;
+    text-align: left;
+    margin: 30px auto 0 auto;
+    color: #669885;
+    font-size:16px;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+.profile{
+    padding: 0px 13px 13px;
+    display: block;
+    box-sizing: border-box;
+}
+.avatar_dog img{
+    max-width: 250px;
+    width: 250px;
+    height: 250px;
+
+}
+
+
+
+
+.bottom_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.center_container{
+    max-width: 621px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.crud{
+    margin: 23px auto 34px;
+}
+.publish{
+    box-sizing: border-box;
+    margin-left: 11px;
+    box-sizing: border-box;
+    width: 148px;
+    height: 34px;
+    background-color: #84B6A3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 13px;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.publish i{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 13px;
+}
+
+a.cancel_btn{
+    box-sizing: border-box;
+    display: flex;
+    width: 105px;
+    height: 34px;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8DBFAC;
+    background-color: #ffffff;
+    border: 1px solid #8DBFAC;
+}
+.buttons{
+    display: flex;
+}
+.btns_container{
+    margin-top: 32px;
+    justify-content: flex-end;
+}
+.check_box .checkbox{
+ margin-right: 15px;
+}
+.check_box{
+    display: flex;
+    align-items: center;
+    color: #393939;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.center_container .description{
+    color: #BABABA;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: right;
+}
+.desc_container{
+    justify-content: flex-end;
+}
+/*right*/
+.section_info {
+    width: 374px;
+    min-height: 100vh;
+    height: 100%;
+    background: #84B6A3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+/************************/
+.card_dog_profile{
+    margin-top: 24px;
+    padding: 0 13px 13px;
+    display: flex;
+    box-sizing: border-box;
+}
+.avatar_dog img{
+    max-width: 250px;
+    width: 250px;
+    height: 250px;
+}
+.description_dog{
+    margin-left: 20px;
+}
+.description_dog .title_card{
+    color: #84B6A3;
+    font-size: 22px;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+    line-height: 27px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.title_card span a{
+    text-align: left;
+    font-size: 18px;
+    color: #BABABA;
+    margin-left: 10px;
+    opacity: 1;
+}
+.deactivated_post .avatar_dog, .deactivated_post .title_card_desc, .deactivated_post .container_parametrs, .deactivated_post .parametr_center, .deactivated_post .line, .deactivated_post .place, .deactivated_post .bottom_container{
+    opacity: 0.4;
+}
+.parametr{
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+    line-height: 18px;
+}
+.parametr span{
+    color: #84B6A3;
+}
+.parametr_center{
+    margin-top: 15px;
+    margin-bottom: 9.5px;
+}
+.container_parametrs{
+    display: flex;
+    justify-content: space-between;
+}
+.container_parametrs .left, .container_parametrs .right{
+    max-width: 167px;
+    min-width: 155px;
+}
+.container_parametrs .right{
+    margin-left: 15px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #BABABA;
+}
+.place{
+    margin-top: 5.5px;
+    margin-bottom: 11px;
+}
+.place span{
+    font-size: 12px;
+    color: #393939;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', 'helvetica', sans-serif;
+}
+.fa-location-pin{
+    color: #84B6A3;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 5px;
+}
+.info_user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left img{
+    min-width: 43px;
+    width: 43px;
+    height: auto;
+    margin-right: 10px;
+}
+.bottom_container .left{
+    display: flex;
+    align-items: center;
+}
+.info_user .name_user{
+    font-weight: 600;
+    font-size: 16px;
+    color: #84B6A3;
+    line-height: 19px;
+}
+.info_user .date{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BABABA;
+}
+.messeg i{
+    color: #BABABA;
+    font-size: 18px;
+    line-height: 22px;
+}
+.bottom_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
