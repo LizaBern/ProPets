@@ -1,0 +1,17 @@
+.FoundPetButton{
+    width: 449px;
+  height: 93px;
+  border: none;
+  font-size: 2rem;
+  background-color: #7F7FD5;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  color: white;
+}
+
+.FoundPetButton:hover{
+    cursor: pointer;
+}

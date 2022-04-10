@@ -1,0 +1,32 @@
+.welcome{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.imageBox{
+    width: 50%;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.imageBox img{
+    width: 452px;
+}
+
+.infoBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.text{
+    display: block;
+    width: 485px;
+    margin-top: 99px;
+    margin-left: 151px;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+}
